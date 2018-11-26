@@ -54,6 +54,8 @@ main .content .blog-previews > div {
 footer {
     border-top: black 1px inset;
     padding: 10px;
+    /* position: absolute; */
+    /* bottom: 0; */
 }
 
 header {
@@ -65,9 +67,43 @@ header {
     display: inline;
     font-size: larger;
     font-weight: 300;
+    cursor: pointer;
 }
 
 header .search {
     float: right;
     padding: 5px;
+}
+
+
+/*blogpost css*/
+#goto-links > a {
+    display: block;
+    width: fit-content;
+    margin-bottom: 20px;
+    color: black;
+    border-bottom: black 1px solid;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: larger;
+    font-weight: 300;
+}
+
+#goto-links > a:hover {
+    background-color: #80808029;
+    
+}
+
+.blogpost .heading {font-weight: 300;margin-bottom: 5px;}
+
+.blogpost .body .heading {
+    
+}
+
+.blogpost .body p {
+    font-weight: 200;
+    font-size: large;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
